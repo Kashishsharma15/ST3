@@ -1,0 +1,28 @@
+body {
+    background-color: #cdbdff;
+    font-family:Calibri;
+}
+hr{
+    background-color:black;
+}
+h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+form {
+    text-align: center;
+    margin-top: 30px;
+}
+
+button {
+    position: center;
+    border: 2px solid black;
+    align-items:center;
+    justify-content:center;
+    width: 150px;
+    background-color:orange;
+}
+td{
+    background-color:grey;
+}

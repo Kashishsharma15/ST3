@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Details Form</title>
+</head>
+<body>
+    <h2>Details Form</h2>
+    <hr>
+    <form name="form1" action="#" method="post">
+        <label for="fname">Name:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+        <input type="text" placeholder="Enter your Name" id="fname" required />
+        <br />
+        <br />
+        <label for="phone">Mob. No.:</label>
+        <input type="number" placeholder="+91" id="phone" required/>
+        <br />
+        <br />
+        <label for="email">Email ID:</label>
+        <input type="email" placeholder="abc@gmail.com" id="email" required/>
+        <br />
+        <br />
+
+        <button onclick="validate()" type="submit">SUBMIT</button>
+        <br />
+        <br />
+        <hr />
+
+    </form>
+    <br />
+    <br />
+
+    <div id="last">
+        <br />
+        <table id="detailTable">
+            <tr>
+                <th>Name</th>
+                <th>Mob No.</th>
+                <th>Email ID</th>
+            </tr>
+        </table>
+    </div>
+   
+
+</body>
+</html>
